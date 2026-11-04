@@ -1,0 +1,57 @@
+body {
+    background-color: lavender;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: purple;
+}
+
+p {
+    color: purple;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* the heading thing */
+.myclass {
+    background-color: #b1b2e3;
+    text-align: center;
+    padding: 10px;
+}
+
+/* interests */
+.interests {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* the changes for each section */
+.interests div {
+    background-color: #f5f0ff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+/* smaller for pics */
+img {
+    width: 250px;
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+/* fave tv show page */
+#unique-id {
+    font-family: Georgia, serif;
+    background-color: #f5f0ff;
+}
+}
